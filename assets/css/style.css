@@ -235,11 +235,11 @@ footer {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
-.social-networks i{
+.social-networks i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
@@ -255,14 +255,14 @@ footer {
     column-gap: 0;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
 }
 
 /* media queries */
 
 @media screen and (max-width: 1200px) {
-    #club-ethos{
+    #club-ethos {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -273,7 +273,8 @@ footer {
         margin: 0;
     }
 
-    #left-about, #right-about {
+    #left-about,
+    #right-about {
         width: 100%;
         float: left;
         padding: 0;
@@ -300,7 +301,7 @@ footer {
 }
 
 @media screen and (max-width: 950px) {
-    #menu{
+    #menu {
         clear: both;
         float: left;
         margin-left: 30px;
@@ -318,19 +319,31 @@ footer {
         margin: auto;
     }
 
-    .left-about-heading, .right-about-heading {
+    .left-about-heading,
+    .right-about-heading {
         width: inherit;
     }
 
-    .left-about-heading h2, .right-about-heading h2 {
+    .left-about-heading h2,
+    .right-about-heading h2 {
         width: 100%;
         text-align: center;
     }
 
-    .left-about-heading p, .right-about-heading p {
+    .left-about-heading p,
+    .right-about-heading p {
         text-align: center;
         padding: 0 20px;
-    } 
+    }
 
+    #photos {
+        column-count: 3;
+    }
 
+    @media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
+
+    }
 }
