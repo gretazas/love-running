@@ -292,7 +292,7 @@ footer {
     }
 }
 
-@media screen and (width 950px) {
+@media screen and (max-width: 950px) {
     #menu{
         clear: both;
         float: left;
@@ -300,4 +300,27 @@ footer {
         margin-bottom: 20px;
         line-height: 25px;
     }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-echos {
+        width: 90%;
+        height: 1200px;
+        margin: auto;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+    } 
 }
