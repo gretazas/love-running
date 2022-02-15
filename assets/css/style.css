@@ -252,7 +252,7 @@ hr {
     column-gap: 0;
 }
 
-#photos>img {
+#photos > img {
     width: 100%;
 }
 
@@ -319,8 +319,14 @@ ul {
     display: block;
 }
 footer {
+    position: absolute;
     height: 150px;
-    top: 100px;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-networks i:hover{
+    color:white;
 }
 
 /* media queries */
